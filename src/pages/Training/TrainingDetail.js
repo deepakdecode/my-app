@@ -24,11 +24,11 @@ class TrainingDetail extends Component {
                 <div class="tab-content">
                     <div id="home" class="tab-pane fade in active">
                         <hr />
-                        <p>Samyak IT Solutions Pvt. Ltd.  (US Based Company) is a Leading Software-Website-Mobile Apps development, Networking-Security Solutions & IT Training Provider Company. Samyak IT Solutions Pvt. Ltd. is also a leading IT Training Service Provider in USA, Jaipur & KOTA that provides comprehensive education and training in various fields of Information Technology, Computer Networking – Security, Software – Website & Embedded Systems – Robotics field.  SAMYAK is providing Summer Training 2018 for Computer Science Engineering Students / Live Project Internship Program 2018 in Jaipur at 9 different locations for B.Tech/M.Tech/BCA/MCA/Bsc/Msc students in own Training-Development Centre with Live Projects.</p>
+                        <p> Tech Solutions Pvt. Ltd.  is a Leading Software development, Networking-Security Solutions & IT Training Provider Company. Tech Solution IT Solutions Pvt. Ltd. is also a leading IT Training Service Provider in USA, Jaipur & KOTA that provides comprehensive education and training in various fields of Information Technology, Computer Networking – Security, Software – Website & Embedded Systems – Robotics field.  Tech Solution is providing Summer Training 2018 for Computer Science Engineering Students / Live Project Internship Program 2018 in Jaipur at 9 different locations for B.Tech/M.Tech/BCA/MCA/Bsc/Msc students in own Training-Development Centre with Live Projects.</p>
 
-                        <p>Samyak is registered by Govt. of Rajasthan, Govt. of India & is exclusive HP Training Partner. Samyak is authorized testing center of Microsoft, Adobe, AutoDesk and HP.</p>
+                        <p>Tech Solution is registered by Govt. of Rajasthan, Govt. of India & is exclusive HP Training Partner. Tech Solution is authorized testing center of Microsoft, Adobe, AutoDesk and HP.</p>
 
-                        <p>Samyak is registered as “Samyak IT Solutions LLC” in USA and hence all certificates are issued by US company now. Summer Training 2018 for Computer Science Engineering Students is best provided for industry readiness.</p>
+                        <p>Tech Solution is registered as “Tech Solution IT Solutions LLC” in USA and hence all certificates are issued by US company now. Summer Training 2018 for Computer Science Engineering Students is best provided for industry readiness.</p>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>

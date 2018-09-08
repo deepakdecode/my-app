@@ -56,7 +56,7 @@ h4 {
 
 
 .jumbotron {
-    background-color: #f4511e;
+    background-color: Grey;
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -71,12 +71,12 @@ h4 {
 }
 
 .logo-small {
-    color: #f4511e;
+    color: Grey;
     font-size: 50px;
 }
 
 .logo {
-    color: #f4511e;
+    color: Grey;
     font-size: 200px;
 }
 
@@ -94,15 +94,15 @@ h4 {
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #f4511e;
+    color: Grey;
 }
 
 .carousel-indicators li {
-    border-color: #f4511e;
+    border-color: Grey;
 }
 
     .carousel-indicators li.active {
-        background-color: #f4511e;
+        background-color: Grey;
     }
 
 .item h4 {
@@ -118,7 +118,7 @@ h4 {
 }
 
 .panel {
-    border: 0px solid #f4511e;
+    border: 0px solid Grey;
     border-radius: 10px !important;
     transition: box-shadow 0.5s;
 }
@@ -128,14 +128,14 @@ h4 {
     }
 
 .panel-footer .btn:hover {
-    border: 1px solid #f4511e;
+    border: 1px solid Grey;
     background-color: #fff !important;
-    color: #f4511e;
+    color: Grey;
 }
 
 .panel-heading {
     color: #fff !important;
-    background-color: #f4511e !important;
+    background-color: Grey !important;
     padding: 10px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 10px;
@@ -161,15 +161,19 @@ h4 {
 
     .panel-footer .btn {
         margin: 15px 0;
-        background-color: #f4511e;
+        background-color: Grey;
         color: #fff;
     }
 
 .navbar {
-    background-color: #f4511e;
+    margin-bottom: 0;
+    background-color: Grey;
+    z-index: 9999;
+    border: 0;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 2px;
+    border-radius: 0;
     font-family: Montserrat, sans-serif;
 }
 
@@ -180,12 +184,12 @@ h4 {
 
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
+    color: Grey !important;
     background-color: #fff !important;
 }
 
 .nav-tabs {
-    background-color: #f4511e;
+    background-color: Grey;
     font-family: Montserrat, sans-serif;
     letter-spacing: 2px;
     line-height: 1.42857143 !important;
@@ -193,7 +197,7 @@ h4 {
 }
 
     .nav-tabs li a:hover, .nav-tabs li.active a {
-        color: #f4511e !important;
+        color: Grey !important;
         background-color: #fff !important;
     }
 
@@ -208,36 +212,48 @@ h4 {
     }
 
 
-
-.dropdown {
-    float: left;
-
+.dropdown .dropbtn {
+    font-size: 12px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+    width:100%;
 }
 
-    .dropdown .dropbtn {
-        font-size: 16px;
-        border: none;
-        outline: none;
-        color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-        font: inherit;
-        margin: 0;
-    }
 
-    .dropdown:hover .dropbtn {
-        background-color: red;
-    }
+.dropdown-menu {
+    color: #fff !important;
+    background-color: Grey !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    width: 100%;
-    left: 0;
+    background-color: Grey;
+    left: -300px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
+
+.dropdown-content-course {
+    width: 700%;
+    height: 350px;
+}
+
+.dropdown-content-home {
+    width: 1000%;
+    height: 700px;
+}
+
 
     .dropdown-content .header {
         background: red;
@@ -249,19 +265,19 @@ h4 {
     display: block;
 }
 
-/* Create three equal columns that floats next to each other */
 .column {
     float: left;
-    width: 33.33%;
-    padding: 10px;
-    background-color: #ccc;
-    height: 250px;
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: Grey;
+    height: 120px;
 }
 
     .column a {
         float: none;
         color: black;
-        padding: 16px;
+        padding: 2px;
         text-decoration: none;
         display: block;
         text-align: left;
@@ -275,17 +291,9 @@ h4 {
 .row:after {
     content: "";
     display: table;
+    display: table;
     clear: both;
 }
-
-
-.dropdown-menu {
-    color: #fff !important;
-    background-color: #f4511e !important;
-}
-
-
-
 
 
 
@@ -298,7 +306,7 @@ h4 {
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #f4511e;
+    color: Grey;
 }
 
 .slideanim {

@@ -171,7 +171,7 @@ class App extends Component {
         });
         return (
             <BrowserRouter>
-                <div className="container-fluid">
+                <div>
                     <PageHeader courseMenu={courseMenu} serviceMenu={ServiceMenu} trainingMenu={TrainingMenu} />
                     <br /> 
                     <Switch>
