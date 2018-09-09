@@ -4,11 +4,6 @@ import { Link } from 'react-router';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { PropsRoute, PublicRoute, PrivateRoute } from 'react-router-with-props';
 
-import ReactDOM from 'react-dom';
-
-import registerServiceWorker from './registerServiceWorker';
-
-
 
 import './App.css';
 import PageFooter from './pages/Layout/PageFooter'
@@ -184,13 +179,10 @@ class App extends Component {
                     </Switch>
                     <PageFooter />
                 </div>
-            </BrowserRouter> 
+            </BrowserRouter>
         );
     }
 }
 
 
-ReactDOM.render(
-    <App />, document.getElementById('root'));
-registerServiceWorker();
-
+export default App;
