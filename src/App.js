@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import { Link } from 'react-router';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { PropsRoute, PublicRoute, PrivateRoute } from 'react-router-with-props';
 
 
@@ -170,7 +170,7 @@ class App extends Component {
             )
         });
         return (
-            <BrowserRouter>
+            <Router>
                 <div>
                     <PageHeader courseMenu={courseMenu} serviceMenu={ServiceMenu} trainingMenu={TrainingMenu} />
                     <br /> 
@@ -179,7 +179,7 @@ class App extends Component {
                     </Switch>
                     <PageFooter />
                 </div>
-            </BrowserRouter>
+            </Router>
         );
     }
 }
