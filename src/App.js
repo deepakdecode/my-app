@@ -21,6 +21,7 @@ import ContactUs from './pages/ContactUs/ContactUs';
 import TrainingDetail from './pages/Training/TrainingDetail';
 
 
+
 const courseMenu = [
     {
         id: "DotNet", courseGroup: "DotNet", path: "/Course/",
@@ -161,6 +162,7 @@ const routes = [
 ]
 
 
+
 class App extends Component {
 
     render() {
@@ -170,7 +172,7 @@ class App extends Component {
             )
         });
         return (
-            <BrowserRouter>
+
                 <div>
                     <PageHeader courseMenu={courseMenu} serviceMenu={ServiceMenu} trainingMenu={TrainingMenu} />
                     <br /> 
@@ -179,7 +181,6 @@ class App extends Component {
                     </Switch>
                     <PageFooter />
                 </div>
-            </BrowserRouter>
         );
     }
 }
