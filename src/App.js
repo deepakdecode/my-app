@@ -171,7 +171,7 @@ class App extends Component {
     render() {
         const routeNode = routes.map((route) => {
             return (
-                <PropsRoute exact path={"my-app/" + route.path} component={route.componentName} data={route.data} />
+                <PropsRoute exact path={"my-app" + route.path} component={route.componentName} data={route.data} />
             )
         });
         return (
