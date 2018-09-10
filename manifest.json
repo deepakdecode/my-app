@@ -9,6 +9,7 @@
     }
   ],
   "start_url": "./index.html",
+  "PUBLIC_URL": "./my-app",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
