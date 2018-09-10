@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import { Link } from 'react-router';
-import { HashRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { PropsRoute, PublicRoute, PrivateRoute } from 'react-router-with-props';
 
+import createHistory from 'history/createBrowserHistory';
 
 import './App.css';
 import PageFooter from './pages/Layout/PageFooter'
@@ -160,6 +161,10 @@ const routes = [
     { id: "ContactUs", componentName: ContactUs, path: "/ContactUs", data: [{ id: "Page1", header: "Contact Us 1", body: "This is Contact Us Page 1" }, { id: "Page2", header: "Contact Us 2", body: "This is Contact Us Page 2" }] },
 ]
 
+const history = createHistory({
+    basename: process.env.PUBLIC_URL,
+});
+
 
 class App extends Component {
 
@@ -170,7 +175,7 @@ class App extends Component {
             )
         });
         return (
-            <Router>
+            <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
                 <div>
                     <PageHeader courseMenu={courseMenu} serviceMenu={ServiceMenu} trainingMenu={TrainingMenu} />
                     <br /> 
@@ -179,7 +184,7 @@ class App extends Component {
                     </Switch>
                     <PageFooter />
                 </div>
-            </Router>
+            </BrowserRouter>
         );
     }
 }

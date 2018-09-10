@@ -6,21 +6,21 @@ class PageHeader extends Component {
         const services = this.props.serviceMenu;
         const serviceNode = services.map((service) => {
             return (
-                <li key={service.id}><a class="dropdown-item" href={service.path + service.id}>{service.menuName}</a></li>
+                <li key={service.id}><Link class="dropdown-item" to={service.path + service.id}>{service.menuName}</Link></li>
             )
         });
 
         const trainings = this.props.trainingMenu;
         const trainingNode = trainings.map((training) => {
             return (
-                <li key={training.id}><a class="dropdown-item" href={training.path + training.id}>{training.menuName}</a></li>
+                <li key={training.id}><Link class="dropdown-item" to={training.path + training.id}>{training.menuName}</Link></li>
             )
         });
 
         const groups = this.props.courseMenu;
         const groupNode = groups.map((group) => {
             const courseNode = group.courses.map((course) => {
-                return (<a href={group.path + group.id + "/" + course.id} key={course.id}>{course.courseName}</a>);
+                return (<Link to={group.path + group.id + "/" + course.id} key={course.id}>{course.courseName}</Link>);
             });
             return (
                 <div class="column">
