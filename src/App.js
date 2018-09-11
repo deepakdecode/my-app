@@ -130,15 +130,15 @@ const courseMenu = [
     },
 ]
 const ServiceMenu = [
-    { id: "WebDesignAndDevelopment", menuName: "Web Design & Development", path: "/Service/", content: "Web Design & Development" },
-    { id: "CloudDevelopment", menuName: "Cloud Development", path: "/Service/", content: "Cloud Development|Cloud Development" },
-    { id: "ProductDevelopment", menuName: "Product Development", path: "/Service/", content: "Product Development|Product Development" },
-    { id: "BusinessIntelligenceSolution", menuName: "Business Intelligence Solution", path: "/Service/", content: "Business Intelligence Solution|Business Intelligence Solution" },
-    { id: "MobileDevelopment", menuName: "Mobile Development", path: "/Service/", content: "Mobile Development" },
-    { id: "ContentManagement", menuName: "Content Management", path: "/Service/", content: "Content Management" },
-    { id: "ECommerceSolution", menuName: "E-Commerce Solution", path: "/Service/", content: "E-Commerce Solution" },
-    { id: "ERPSolution", menuName: "ERP Solution", path: "/Service/", content: "ERP Solution" },
-    { id: "MaintenanceAndSupport", menuName: "Maintenance & Support", path: "/Service/", content: "Maintenance & Support" }
+    { id: "WebDesignAndDevelopment", menuName: "Web Design & Development", desc:"Web Design & Development", path: "/Service/", content: "Web Design & Development" },
+    { id: "CloudDevelopment", menuName: "Cloud Development", desc: "Cloud Development", path: "/Service/", content: "Cloud Development|Cloud Development" },
+    { id: "ProductDevelopment", menuName: "Product Development", desc: "Product Development", path: "/Service/", content: "Product Development|Product Development" },
+    { id: "BusinessIntelligenceSolution", menuName: "Business Intelligence Solution", desc: "Business Intelligence Solution", path: "/Service/", content: "Business Intelligence Solution|Business Intelligence Solution" },
+    { id: "MobileDevelopment", menuName: "Mobile Development", desc: "Mobile Development", path: "/Service/", content: "Mobile Development" },
+    { id: "ContentManagement", menuName: "Content Management", desc: "Content Management", path: "/Service/", content: "Content Management" },
+    { id: "ECommerceSolution", menuName: "E-Commerce Solution", desc: "E-Commerce Solution", path: "/Service/", content: "E-Commerce Solution" },
+    { id: "ERPSolution", menuName: "ERP Solution", desc: "ERP Solution", path: "/Service/", content: "ERP Solution" },
+    { id: "MaintenanceAndSupport", menuName: "Maintenance & Support", desc: "Maintenance & Support", path: "/Service/", content: "Maintenance & Support" }
 ]
 const TrainingMenu = [
     { id: "AcademicInternship", menuName: "Academic Internship", path: "/Training/", content: "Academic Internship" },

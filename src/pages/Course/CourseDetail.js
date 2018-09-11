@@ -37,8 +37,10 @@ class CourseDetail extends Component {
                     <div className="panel panel-default">
                         <div className="panel-heading">
                             <div className="row">                              
-                                <div className="col-md-6 text-left">Duration:&nbsp;&nbsp;&nbsp;{courseNode[0].duration}</div>
-                                <div className="col-md-6 text-right">Course Fee:&nbsp;&nbsp;&nbsp;INR&nbsp;{courseNode[0].fee}</div>
+                                <div className="col-sm-3 text-center">Duration:&nbsp;&nbsp;&nbsp;{courseNode[0].duration}</div>
+                                <div className="col-sm-3 text-center"></div>
+                                <div className="col-sm-3 text-center"></div>
+                                <div className="col-sm-3 text-center">Course Fee:&nbsp;&nbsp;&nbsp;INR&nbsp;{courseNode[0].fee}</div>
                             </div>
                         </div>
 

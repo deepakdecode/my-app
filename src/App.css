@@ -70,9 +70,8 @@ h4 {
     background-color: #f6f6f6;
 }
 
-.logo-small {
-    color: Blue;
-    font-size: 50px;
+.logo-small {    
+    font-size: 30px;
 }
 
 .logo {
@@ -142,8 +141,12 @@ h4 {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    /*font-size: 20px;*/
+    font-size: 18px;
     /*font-weight: bold;*/
+}
+
+.panel-body ul{
+    width:100%;
 }
 
 .panel-footer {
@@ -212,16 +215,16 @@ h4 {
     }
 
 
-.dropdown .dropbtn {
+.dropdown {
     font-size: 12px;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    /*padding: 14px 16px;*/
     background-color: inherit;
     font: inherit;
     margin: 0;
-    width:100%;
+    
 }
 
 
@@ -249,6 +252,12 @@ h4 {
     height: 350px;
 }
 
+.dropdown-content-service {
+    width: 700%;
+    height: 350px;
+}
+
+
 .dropdown-content-home {
     width: 1000%;
     height: 700px;
@@ -271,7 +280,7 @@ h4 {
     padding-left: 12px;
     padding-right: 12px;
     background-color: Blue;
-    height: 120px;
+    height: 150px;
 }
 
     .column a {
@@ -306,7 +315,7 @@ h4 {
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: Blue;
+    /*color: Blue;*/
 }
 
 .slideanim {
@@ -388,7 +397,7 @@ footer .glyphicon {
     font-weight: bold;
     display: inline-block;
     background: url(http://localhost:3000/images/marker.gif) 5px no-repeat;
-    padding-left: 17px;
+    padding-left: 1px;
     margin-top: 10px;
     text-decoration: none;
     font-family: 'proxima_nova_rgbold';
