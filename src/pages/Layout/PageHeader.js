@@ -9,8 +9,8 @@ class PageHeader extends Component {
                     <div class="column text-center">
                         <Link to={service.path + service.id}>
                             <span class="glyphicon glyphicon-heart logo-small"></span>
-                            <h5 key={service.id}>{service.menuName}</h5>
-                            {service.desc}
+                        <h5 key={service.id}>{service.menuName}</h5>
+                        {service.desc}
                         </Link>
                     </div>
             )
@@ -53,17 +53,7 @@ class PageHeader extends Component {
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="/">HOME
-                                    <span class="caret"></span></a>
-                                <div class="dropdown">
-                                    <div class="dropdown-content dropdown-content-home">
-                                        {groupNode}
-                                    </div>
-                                </div>
-
-
-                            </li>
+                            <li><Link to="/">HOME</Link></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="/services">SERVICES
                                     <span class="caret"></span></a>
@@ -85,9 +75,9 @@ class PageHeader extends Component {
                                     {groupNode}
                                 </div>
                             </li>
-                            <li><a href="/Career">CAREERS</a></li>
-                            <li><a href="/Resource">RESOURCES</a></li>
-                            <li><a href="/ContactUs">CONTACT US</a></li>
+                            <li><Link to="/Career">CAREERS</Link></li>
+                            <li><Link to="/Resource">RESOURCES</Link></li>
+                            <li><Link to="/ContactUs">CONTACT US</Link></li>
                         </ul>
                     </div>
                 </div>

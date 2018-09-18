@@ -158,7 +158,7 @@ const routes = [
     { id: "CourseDetail", componentName: CourseDetail, path: "/Course/:Group/:Course", data: courseMenu },
     { id: "Career", componentName: Career, path: "/Career", data: Career },
     { id: "Resource", componentName: Resource, path: "/Resource", data: Resource },
-    { id: "ContactUs", componentName: ContactUs, path: "/ContactUs", data: [{ id: "Page1", header: "Contact Us 1", body: "This is Contact Us Page 1" }, { id: "Page2", header: "Contact Us 2", body: "This is Contact Us Page 2" }] },
+    { id: "ContactUs", componentName: ContactUs, path: "/ContactUs", data: [{ id: "Page1", header: "Contact Us 1", body: "This is Contact Us Page 1" }] },
 ]
 
 const history = createHistory({
