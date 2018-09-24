@@ -11,7 +11,7 @@ class TrainingDetail extends Component {
         });
         return (
             <div className="container-fluid">
-                <img src="../../image/csharp.png" alt={training[0].menuName} width="100%" height="400"></img>
+                <img src="../../images/csharp.png" alt={training[0].menuName} width="100%" height="400"></img>
                 <h1 className="text-center">{training[0].menuName}</h1>
                 <ul class="nav nav-tabs">
                     <li class="active"><a data-toggle="tab" href="#About">About Us</a></li>
@@ -24,11 +24,11 @@ class TrainingDetail extends Component {
                 <div class="tab-content">
                     <div id="home" class="tab-pane fade in active">
                         <hr />
-                        <p> Tech Solutions Pvt. Ltd.  is a Leading Software development, Networking-Security Solutions & IT Training Provider Company. Tech Solution IT Solutions Pvt. Ltd. is also a leading IT Training Service Provider in USA, Jaipur & KOTA that provides comprehensive education and training in various fields of Information Technology, Computer Networking – Security, Software – Website & Embedded Systems – Robotics field.  Tech Solution is providing Summer Training 2018 for Computer Science Engineering Students / Live Project Internship Program 2018 in Jaipur at 9 different locations for B.Tech/M.Tech/BCA/MCA/Bsc/Msc students in own Training-Development Centre with Live Projects.</p>
+                        <p> Tech Solutions Pvt. Ltd.  is a Leading Software development, Networking-Security Solutions & IT Training Provider Company. Tech Solution IT Solutions Pvt. Ltd. is also a leading IT Training Service Provider in USA, Jaipur & KOTA that provides comprehensive education and training in various fields of Information Technology, Computer Networking ï¿½ Security, Software ï¿½ Website & Embedded Systems ï¿½ Robotics field.  Tech Solution is providing Summer Training 2018 for Computer Science Engineering Students / Live Project Internship Program 2018 in Jaipur at 9 different locations for B.Tech/M.Tech/BCA/MCA/Bsc/Msc students in own Training-Development Centre with Live Projects.</p>
 
                         <p>Tech Solution is registered by Govt. of Rajasthan, Govt. of India & is exclusive HP Training Partner. Tech Solution is authorized testing center of Microsoft, Adobe, AutoDesk and HP.</p>
 
-                        <p>Tech Solution is registered as “Tech Solution IT Solutions LLC” in USA and hence all certificates are issued by US company now. Summer Training 2018 for Computer Science Engineering Students is best provided for industry readiness.</p>
+                        <p>Tech Solution is registered as ï¿½Tech Solution IT Solutions LLCï¿½ in USA and hence all certificates are issued by US company now. Summer Training 2018 for Computer Science Engineering Students is best provided for industry readiness.</p>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>

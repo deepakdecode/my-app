@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 class PageFooter extends Component {
     render() {
         return (
-            <footer class="container-fluid text-center">
+            <footer class="footer text-center">
                 <a href="#myPage" title="To Top">
                     <span class="glyphicon glyphicon-chevron-up"></span>
                 </a>
-                <p>Bootstrap Theme Made By <a href="/" title="Visit us">www.abcd.com</a></p>
+                <p><strong>&copy;2018. All rights reserved</strong></p>
             </footer>
         )
     }

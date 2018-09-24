@@ -38,6 +38,15 @@ body {
     color: #818181;
 }
 
+.m0{
+    margin-top:3.9%;
+}
+.top-bar {
+    background: url(images/top_bar.png) repeat-x 0 0;
+    height: 100px;
+}
+
+
 h2 {
     font-size: 24px;
     text-transform: uppercase;
@@ -56,7 +65,7 @@ h4 {
 
 
 .jumbotron {
-    background-color: tomato;
+    background-color: #35424a;
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -70,12 +79,12 @@ h4 {
     background-color: #f6f6f6;
 }
 
-.logo-small {    
+.logo-small {
     font-size: 30px;
 }
 
 .logo {
-    color: tomato;
+    color: orange;
     font-size: 200px;
 }
 
@@ -93,16 +102,17 @@ h4 {
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: tomato;
+    color: orange;
 }
 
 .carousel-indicators li {
-    border-color: tomato;
+    border-color: #35424a;
 }
 
     .carousel-indicators li.active {
-        background-color: tomato;
+        background-color: orange;
     }
+
 
 .item h4 {
     font-size: 19px;
@@ -117,7 +127,7 @@ h4 {
 }
 
 .panel {
-    border: 0px solid tomato;
+    border: 0px solid #35424a;
     border-radius: 10px !important;
     transition: box-shadow 0.5s;
 }
@@ -127,14 +137,14 @@ h4 {
     }
 
 .panel-footer .btn:hover {
-    border: 1px solid tomato;
+    border: 1px solid #35424a;
     background-color: #fff !important;
-    color: tomato;
+    color: #35424a;
 }
 
 .panel-heading {
     color: #fff !important;
-    background-color: tomato !important;
+    background-color: #35424a !important;
     padding: 10px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 10px;
@@ -145,8 +155,8 @@ h4 {
     /*font-weight: bold;*/
 }
 
-.panel-body ul{
-    width:100%;
+.panel-body ul {
+    width: 100%;
 }
 
 .panel-footer {
@@ -164,13 +174,13 @@ h4 {
 
     .panel-footer .btn {
         margin: 15px 0;
-        background-color: tomato;
+        background-color: #35424a;
         color: #fff;
     }
 
 .navbar {
     margin-bottom: 0;
-    background-color:tomato;
+    background-color: #35424a;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -178,21 +188,29 @@ h4 {
     letter-spacing: 2px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
+    border-bottom:3px orange solid;
 }
 
     .navbar li a, .navbar .navbar-brand {
-        color: #fff !important;
+        color: #ffffff !important;
     }
-
+nav h4{
+    color:orange;
+}
 
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: tomato !important;
-    background-color: #fff !important;
+    color: #35424a !important;
+    background-color: #ffffff !important;
+}
+
+.highlight{
+    color:orange;
+    text-transform: uppercase;
 }
 
 .nav-tabs {
-    background-color: tomato;
+    background-color: #35424a;
     font-family: Montserrat, sans-serif;
     letter-spacing: 2px;
     line-height: 1.42857143 !important;
@@ -200,18 +218,18 @@ h4 {
 }
 
     .nav-tabs li a:hover, .nav-tabs li.active a {
-        color: tomato !important;
-        background-color: #fff !important;
+        color: #35424a !important;
+        background-color: #ffffff !important;
     }
 
     .nav-tabs li a {
-        color: #fff !important;
+        color: #ffffff !important;
     }
 
     .nav-tabs li {
         width: 20%;
         text-align: center;
-        outline:1px solid white;
+        outline: 1px solid white;
     }
 
 
@@ -224,24 +242,22 @@ h4 {
     background-color: inherit;
     font: inherit;
     margin: 0;
-    
 }
 
 
 .dropdown-menu {
-    color: #fff !important;
-    background-color: tomato !important;
+    color: #ffffff !important;
+    background-color: #35424a !important;
 }
 
 .dropdown:hover .dropdown-menu {
     display: block;
 }
 
-
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: tomato;
+    background-color: #35424a;
     left: -300px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -250,25 +266,32 @@ h4 {
 .dropdown-content-course {
     width: 700%;
     height: 350px;
+    
 }
 
+.dropdown-content-course h5,.dropdown-content-service h5{
+color:orange;    
+}
+
+
 .dropdown-content-service {
-    width: 700%;
+    width: 525%;
     height: 350px;
 }
 
-
-.dropdown-content-home {
-    width: 1000%;
-    height: 700px;
+.dropdown-content-service .column {
+    width: 33.33%;
 }
 
+.dropdown-content-course .column {
+    width: 25%;
+}
 
-    .dropdown-content .header {
-        background: red;
-        padding: 16px;
-        color: white;
-    }
+.dropdown-content .header {
+    background: red;
+    padding: 16px;
+    color: white;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -276,10 +299,9 @@ h4 {
 
 .column {
     float: left;
-    width: 25%;
     padding-left: 12px;
-    padding-right: 12px;    
-    background-color: tomato;
+    padding-right: 12px;
+    background-color: #35424a;
     height: 150px;
 }
 
@@ -300,7 +322,6 @@ h4 {
 .row:after {
     content: "";
     display: table;
-    display: table;
     clear: both;
 }
 
@@ -315,7 +336,7 @@ h4 {
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    /*color: tomato;*/
+    /*color: #35424a;*/
 }
 
 .slideanim {
@@ -370,6 +391,16 @@ footer .glyphicon {
     .logo {
         font-size: 150px;
     }
+    nav h4 span{
+    text-align: center;
+}
+.container{
+    width:100%;
+}
+.m0{
+    margin-top:13%;
+}
+
 }
 
 @media screen and (max-width: 600px) {

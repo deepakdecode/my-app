@@ -6,13 +6,13 @@ class PageHeader extends Component {
         const services = this.props.serviceMenu;
         const serviceNode = services.map((service) => {
             return (
-                    <div class="column text-center">
-                        <Link to={service.path + service.id}>
-                            <span class="glyphicon glyphicon-heart logo-small"></span>
+                <div class="column text-center">
+                    <Link to={service.path + service.id}>
+                        <span class="glyphicon glyphicon-heart logo-small"></span>
                         <h5 key={service.id}>{service.menuName}</h5>
                         {service.desc}
-                        </Link>
-                    </div>
+                    </Link>
+                </div>
             )
         });
 
@@ -40,23 +40,23 @@ class PageHeader extends Component {
 
 
         return (
-
             <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
+                <div className="container">
+
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#myPage">Logo</a>
+           <a className="navbar-brand" href="/"><strong><span class="highlight">TECH</span>SOLUTIONS</strong></a>
                     </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
+                    <div class="collapse navbar-collapse text-left" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right">
                             <li><Link to="/">HOME</Link></li>
                             <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="/services">SERVICES
-                                    <span class="caret"></span></a>
+                                <Link class="dropdown-toggle" data-toggle="dropdown" to="/Service">SERVICES
+                                    <span class="caret"></span></Link>
                                 <div class="dropdown-content dropdown-content-service">
                                     {serviceNode}
                                 </div>
@@ -71,7 +71,7 @@ class PageHeader extends Component {
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="/Courses">COURSES
                                     <span class="caret"></span></a>
-                                <div class="dropdown-content dropdown-content-course">
+                                <div class="dropdown-content dropdown-content-course text-left">
                                     {groupNode}
                                 </div>
                             </li>
@@ -82,7 +82,6 @@ class PageHeader extends Component {
                     </div>
                 </div>
             </nav>
-
         )
     }
 }

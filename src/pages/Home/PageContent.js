@@ -3,51 +3,47 @@ import React, { Component } from 'react';
 class PageContent extends Component {
     render() {
         return (
-            <div>
-                <div id="home" class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <h2>Welcome to JMD Software</h2>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <br /><button class="btn btn-default btn-lg">Get in Touch</button>
-                        </div>
-                        <div class="col-sm-4">
-                            <h2>Latest News</h2>
-                            <ul class="list-news">
-                                <li>
-                                    <a href="#">Apr 21, 2012</a>
-                                    <p class="text-info">Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cu</p>
-                                    Eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.<br />
-                                    <a href="#" class="link">details</a>
-                                </li>
-                                <li>
-                                    <a href="#">Apr 21, 2012</a>
-                                    <p class="text-info">Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cu</p>
-                                    Eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.<br />
-                                    <a href="#" class="link">details</a>
-                                </li>
-                            </ul>
-                        </div>
+            <div className="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h2>Welcome to JMD Software</h2>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <br /><button class="btn btn-default btn-lg">Get in Touch</button>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Latest News</h2>
+                        <ul class="list-news">
+                            <li>
+                                <a href="#">Apr 21, 2012</a>
+                                <p class="text-info">Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cu</p>
+                                Eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.<br />
+                                <a href="#" class="link">details</a>
+                            </li>
+                            <li>
+                                <a href="#">Apr 21, 2012</a>
+                                <p class="text-info">Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cu</p>
+                                Eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.<br />
+                                <a href="#" class="link">details</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-
-                <div class="container-fluid bg-grey">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <span class="glyphicon glyphicon-globe logo slideanim"></span>
-                        </div>
-                        <div class="col-sm-8">
-                            <h2>Our Values</h2><br />
-                            <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br />
-                            <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <div class="row bg-grey" >
+                    <div class="col-sm-4">
+                        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+                    </div>
+                    <div class="col-sm-8">
+                        <h2>Our Values</h2>
+                        <p><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
                     </div>
                 </div>
 
 
-                <div id="services" class="container-fluid text-center">
+
+                <div id="services" class="text-center">
                     <h2>SERVICES</h2>
                     <h4>What we offer</h4>
                     <br />
@@ -88,7 +84,7 @@ class PageContent extends Component {
                     </div>
                 </div>
 
-                <div id="portfolio" class="container-fluid text-center bg-grey">
+                <div id="portfolio" class="text-center bg-grey">
                     <h2>Portfolio</h2><br />
                     <h4>What we have created</h4>
                     <div class="row text-center slideanim">
@@ -116,7 +112,7 @@ class PageContent extends Component {
                     </div><br />
                 </div>
 
-                <div id="pricing" class="container-fluid">
+                <div id="pricing">
                     <div class="text-center">
                         <h2>Pricing</h2>
                         <h4>Choose a payment plan that works for you</h4>
@@ -181,7 +177,7 @@ class PageContent extends Component {
                         </div>
                     </div>
                 </div>
-                <div id="contact" class="container-fluid bg-grey">
+                <div id="contact" class="bg-grey">
                     <h2 class="text-center">CONTACT</h2>
                     <div class="row">
                         <div class="col-sm-5">

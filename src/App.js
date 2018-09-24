@@ -178,7 +178,7 @@ class App extends Component {
             <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
                 <div>
                     <PageHeader courseMenu={courseMenu} serviceMenu={ServiceMenu} trainingMenu={TrainingMenu} />
-                    <br /> 
+                    <div class="m0"></div>    
                     <Switch>
                         {routeNode}
                     </Switch>
